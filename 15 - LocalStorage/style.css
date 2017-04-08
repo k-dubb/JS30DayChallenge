@@ -64,15 +64,24 @@
     }
 
     .plates input:checked + label:before {
-      content: '🌮';
+      content: '\2713 ';
     }
 
     .add-items {
       margin-top: 20px;
     }
 
-    .add-items input {
+    .add-items input, .options {
       padding:10px;
       outline:0;
       border:1px solid rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    button {
+      margin: 0 2px;
     }
